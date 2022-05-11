@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID           "TMPL4i-ILXAr"                      // Blynk authentification setings
-#define BLYNK_DEVICE_NAME           "FIRE"
-#define BLYNK_AUTH_TOKEN            "nmLlrS0HjdKN30G8GlU4etBtaWQvkUvV"
+#define BLYNK_TEMPLATE_ID           "Blynk Template ID"                      // Blynk authentification setings
+#define BLYNK_DEVICE_NAME           "Blynk device name"
+#define BLYNK_AUTH_TOKEN            "Blynk token"
 #define BLYNK_PRINT Serial                                               // Sending data to Blynk Serial Debug (pir sensor (9600))
 #define BLYNK_PRINT SerialUSB                                            // Seding data to the temp sensor (115200)
 #include <SPI.h>                                                          //mkr setings for wifi
@@ -9,8 +9,8 @@
 #include <DHT.h>                                                          // temp sensor data
 
 char auth[] = BLYNK_AUTH_TOKEN;                                            // authentification information for blynk and wifi
-char ssid[] = "VM1635798";
-char pass[] = "Jn6vmszkbvvp";
+char ssid[] = "Wifi ssid";
+char pass[] = "wifi password";
 
 #define DHTPIN 2                                                           // dht to pin 2
 #define DHTTYPE DHT11                                                       // seting the type of DHT (11)
