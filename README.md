@@ -1,4 +1,5 @@
-# Fire-Detector-on-Blynk-Cloud
+# PIR and DHT11 Sensor on Blynk Services
+
 Fire detector and air monitoring
 
 
